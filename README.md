@@ -12,7 +12,11 @@ Putty registry files where in a weird format for Linux, so I did some conversion
 To use : 
 
 Edit the script to point to a backup of the windows registry containing Putty Server profiles.  (around line 20)
+
 $data = explode(PHP_EOL,file_get_contents('/home/sinnige/Downloads/Putty backup Desktop.reg'));
+
 run php -f convert.php
+
 move the profiles to the remmina folder containing the remmina profiles.
+
 /home/**username**/.var/app/org.remmina.Remmina/data/remmina/group_ssh_name_host.remmina
