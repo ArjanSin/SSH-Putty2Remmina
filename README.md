@@ -1,5 +1,5 @@
 # SSH-Putty2Remmina
-A small PHP script that can read a Putty backup taken from registry and creates remmina ssh profiles.
+A small PHP 8 script that can read a Putty backup taken from registry and creates remmina ssh profiles.
 
 Maybe usefull for others...  Not planning to do more with the code, and you need PHP, so I guess you are a programmer. :-D
 
